@@ -12,9 +12,9 @@
 
   
     <script>
-        //fetch('https://96.egoi.page/api/pages/5e2ve5v8c/variation?uid=ddd7d30609&segmentIds=6,7').then(response => response.json()).then(response => console.log('right uid response from dev', response))
+        fetch('https://96.egoi.page/api/pages/5e2ve5v8c/variation?uid=ddd7d30609&segmentIds=6,7').then(response => response.json()).then(response => console.log('right uid response from dev', response))
         // fetch('https://lp.egoi.page/api/pages/jte1LUe1/variation?uid=b97d4ebdb1&segmentIds=8118').then(response => response.json()).then(response => console.log('right uid response from prod', response))
-        //fetch('https://96.egoi.page/api/pages/5e2ve5v8c/variation?uid=ddd7d30609&segmentIds=6,17').then(response => response.json()).then(response => console.log('wrong segment response from dev', response))
+        fetch('https://96.egoi.page/api/pages/5e2ve5v8c/variation?uid=ddd7d30609&segmentIds=6,17').then(response => response.json()).then(response => console.log('wrong segment response from dev', response))
         // fetch('https://lp.egoi.page/api/pages/jte1LUe1/variation?uid=b97d4ebdb1&segmentIds=8112318').then(response => response.json()).then(response => console.log('wrong segment response from prod', response))
         fetch('https://96.egoi.page/api/pages/5e2ve5v8c/variation?uid=ddd7d50609&segmentIds=6,7').then(response => response.json()).then(response => console.log('wrong uid response from dev', response))
         // fetch('https://lp.egoi.page/api/pages/jte1LUe1/variation?uid=b97d4e1db1&segmentIds=8118').then(response => response.json()).then(response => console.log('wrong uid response from prod', response))
